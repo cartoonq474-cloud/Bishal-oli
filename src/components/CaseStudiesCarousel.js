@@ -15,8 +15,6 @@ const caseStudies = [
       { label: '#1 Rankings, 40+ Keywords' },
     ],
     industry: 'E-Commerce',
-    objectFit: 'contain',
-    bg: '#f6f6f7',
   },
   {
     id: 'saas-brand',
@@ -95,18 +93,12 @@ export default function CaseStudiesCarousel() {
           {caseStudies.map((cs) => (
             <article key={cs.id} className="cs-card">
               {/* Image */}
-              <div 
-                className="cs-card__img-wrap"
-                style={cs.bg ? { backgroundColor: cs.bg } : {}}
-              >
+              <div className="cs-card__img-wrap">
                 <Image
                   src={cs.image}
                   alt={`${cs.client} SEO case study`}
                   fill
-                  style={{ 
-                    objectFit: cs.objectFit || 'cover', 
-                    objectPosition: 'center',
-                  }}
+                  style={{ objectFit: 'cover', objectPosition: 'center' }}
                   sizes="300px"
                 />
                 {/* Overlay gradient */}
