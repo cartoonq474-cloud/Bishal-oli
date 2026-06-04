@@ -13,6 +13,7 @@ const caseStudies = [
     metrics: [
       { label: '+312% Organic Traffic' },
       { label: '#1 Rankings, 40+ Keywords' },
+      { label: '+89% Organic Revenue' },
     ],
     industry: 'E-Commerce',
   },
