@@ -19,11 +19,12 @@ const caseStudies = [
   },
   {
     id: 'saas-brand',
-    image: '/case-study-2.png',
+    image: '/saas-dashboard.png',
     client: 'SaaS Brand',
     description: 'Semantic SEO overhaul and AI search optimization resulting in consistent LLM citations.',
     metrics: [
-      { label: '+180% Search Visibility' },
+      { label: '+163.7% Organic Traffic' },
+      { label: '+371.1% Search Visibility' },
       { label: 'AI Citations in 3 LLMs' },
     ],
     industry: 'SaaS',
