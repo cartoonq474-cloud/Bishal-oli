@@ -7,7 +7,7 @@ import { useRef } from 'react'
 const caseStudies = [
   {
     id: 'ecommerce-store',
-    image: '/case-study-1.png',
+    image: '/ecommerce-dashboard.png',
     client: 'E-Commerce Store',
     description: 'Built a full topical authority framework that tripled organic sessions in under 6 months.',
     metrics: [
@@ -15,6 +15,8 @@ const caseStudies = [
       { label: '#1 Rankings, 40+ Keywords' },
     ],
     industry: 'E-Commerce',
+    objectFit: 'contain',
+    bg: '#f6f6f7',
   },
   {
     id: 'saas-brand',
@@ -93,12 +95,19 @@ export default function CaseStudiesCarousel() {
           {caseStudies.map((cs) => (
             <article key={cs.id} className="cs-card">
               {/* Image */}
-              <div className="cs-card__img-wrap">
+              <div 
+                className="cs-card__img-wrap"
+                style={cs.bg ? { backgroundColor: cs.bg } : {}}
+              >
                 <Image
                   src={cs.image}
                   alt={`${cs.client} SEO case study`}
                   fill
-                  style={{ objectFit: 'cover', objectPosition: 'center' }}
+                  style={{ 
+                    objectFit: cs.objectFit || 'cover', 
+                    objectPosition: 'center',
+                    inset: cs.objectFit === 'contain' ? '12px' : '0px'
+                  }}
                   sizes="300px"
                 />
                 {/* Overlay gradient */}
