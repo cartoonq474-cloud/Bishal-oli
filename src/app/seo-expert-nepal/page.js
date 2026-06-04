@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import CaseStudiesCarousel from '@/components/CaseStudiesCarousel'
+import TestimonialsSection from '@/components/TestimonialsSection'
 import FaqAccordion from './FaqAccordion'
 
 export const metadata = {
@@ -196,6 +197,9 @@ export default function SeoExpertNepal() {
 
       {/* CASE STUDIES CAROUSEL */}
       <CaseStudiesCarousel />
+
+      {/* TESTIMONIALS */}
+      <TestimonialsSection />
 
       {/* SERVICE PACKAGES & PRICING */}
       <section className="section" aria-labelledby="pricingHeading" style={{ background: 'var(--ivory)' }}>

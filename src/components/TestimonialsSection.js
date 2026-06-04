@@ -48,7 +48,7 @@ function useScroll(cardWidth = 280, gap = 24) {
 }
 
 export default function TestimonialsSection() {
-  const [tab, setTab] = useState('video')
+  const [tab, setTab] = useState('text')
   const { ref: videoRef, scroll: scrollVideo } = useScroll(220, 16)
   const { ref: textRef, scroll: scrollText } = useScroll(340, 16)
 
@@ -68,18 +68,6 @@ export default function TestimonialsSection() {
           <div className="testimonials-tabs" role="tablist">
             <button
               role="tab"
-              aria-selected={tab === 'video'}
-              className={`testimonials-tab${tab === 'video' ? ' active' : ''}`}
-              onClick={() => setTab('video')}
-              id="tabVideo"
-            >
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                <path d="M8 5v14l11-7z"/>
-              </svg>
-              Video Reviews
-            </button>
-            <button
-              role="tab"
               aria-selected={tab === 'text'}
               className={`testimonials-tab${tab === 'text' ? ' active' : ''}`}
               onClick={() => setTab('text')}
@@ -89,6 +77,18 @@ export default function TestimonialsSection() {
                 <path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 12H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/>
               </svg>
               Customer Reviews
+            </button>
+            <button
+              role="tab"
+              aria-selected={tab === 'video'}
+              className={`testimonials-tab${tab === 'video' ? ' active' : ''}`}
+              onClick={() => setTab('video')}
+              id="tabVideo"
+            >
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M8 5v14l11-7z"/>
+              </svg>
+              Video Reviews
             </button>
           </div>
         </div>
