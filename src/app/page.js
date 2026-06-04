@@ -91,7 +91,15 @@ export default function Home() {
               <Image src="/bishal-oli.png" alt="Bishal Oli — SEO and AI Search Optimization Expert" width={440} height={560} priority />
             </div>
             <div className="hero__stat-card hero__stat-card--top" aria-hidden="true">
-              <span className="hero__stat-icon">🏆</span>
+              <span className="hero__stat-icon" style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ color: 'var(--lime-dark)' }}>
+                  <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6" />
+                  <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18" />
+                  <path d="M4 22h16" />
+                  <path d="M10 14.66V17c0 .55-.45 1-1 1H4v2h16v-2h-5c-.55 0-1-.45-1-1v-2.34" />
+                  <path d="M12 2a7 7 0 0 0-7 7v4a7 7 0 0 0 14 0V9a7 7 0 0 0-7-7z" />
+                </svg>
+              </span>
               <span className="hero__stat-text">40+ Websites Optimized</span>
             </div>
             <div className="hero__stat-card hero__stat-card--bottom" aria-hidden="true">

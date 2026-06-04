@@ -210,7 +210,13 @@ export default function SeoExpertNepal() {
 
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: 'var(--s6)', marginTop: 'var(--s6)' }}>
             <div style={{ border: '1px solid var(--border)', padding: 'var(--s4)', background: 'var(--ivory)' }}>
-              <h3 style={{ fontSize: '1.25rem', marginBottom: 'var(--s3)', color: '#c0392b' }}>❌ Red Flags to Avoid</h3>
+              <h3 style={{ fontSize: '1.25rem', marginBottom: 'var(--s3)', color: '#c0392b', display: 'flex', alignItems: 'center' }}>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{ marginRight: '8px' }} aria-hidden="true">
+                  <line x1="18" y1="6" x2="6" y2="18" />
+                  <line x1="6" y1="6" x2="18" y2="18" />
+                </svg>
+                Red Flags to Avoid
+              </h3>
               <ul style={{ listStyleType: 'none', padding: 0, margin: 0, fontSize: '0.9375rem', color: 'var(--gray)' }}>
                 <li style={{ marginBottom: '16px' }}><strong>Guaranteed Rankings:</strong> Search engines modify their ranking systems daily. Anyone promising concrete position numbers is selling outdated black-hat strategies.</li>
                 <li style={{ marginBottom: '16px' }}><strong>Backlink Packages:</strong> Buying bundles of hundreds of links from networks leads directly to manual algorithmic search penalties.</li>
@@ -219,7 +225,12 @@ export default function SeoExpertNepal() {
             </div>
 
             <div style={{ border: '1px solid var(--border)', padding: 'var(--s4)', background: 'var(--ivory)' }}>
-              <h3 style={{ fontSize: '1.25rem', marginBottom: 'var(--s3)', color: 'var(--lime-dark)' }}>✅ Proof to Demand</h3>
+              <h3 style={{ fontSize: '1.25rem', marginBottom: 'var(--s3)', color: 'var(--lime-dark)', display: 'flex', alignItems: 'center' }}>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{ marginRight: '8px' }} aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                Proof to Demand
+              </h3>
               <ul style={{ listStyleType: 'none', padding: 0, margin: 0, fontSize: '0.9375rem', color: 'var(--gray)' }}>
                 <li style={{ marginBottom: '16px' }}><strong>Live GSC Traffic Charts:</strong> Request real, unedited Google Search Console dashboards showing sustained click growth.</li>
                 <li style={{ marginBottom: '16px' }}><strong>Topical Map Architecture:</strong> Ask to see how they structure semantic topic models and site maps for entities.</li>
@@ -288,19 +299,28 @@ export default function SeoExpertNepal() {
 
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: 'var(--s4)', marginTop: 'var(--s6)' }}>
             <div style={{ border: '1px solid var(--border)', padding: 'var(--s4)', display: 'flex', flexDirection: 'column' }}>
-              <div style={{ fontSize: '1.75rem', marginBottom: '12px' }}>⚡</div>
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ color: 'var(--lime)', marginBottom: '12px' }} aria-hidden="true">
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+              </svg>
               <h3 style={{ fontSize: '1.125rem', marginBottom: '8px' }}>Low-Bandwidth Mobile Speed</h3>
               <p style={{ fontSize: '0.875rem', color: 'var(--gray)', lineHeight: 1.6 }}>Many regional users browse on unstable 3G/4G connections. We compress files, structure layout parameters, and resolve rendering blocks so pages open instantly on weak mobile networks.</p>
             </div>
 
             <div style={{ border: '1px solid var(--border)', padding: 'var(--s4)', display: 'flex', flexDirection: 'column' }}>
-              <div style={{ fontSize: '1.75rem', marginBottom: '12px' }}>💳</div>
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ color: 'var(--lime)', marginBottom: '12px' }} aria-hidden="true">
+                <rect x="2" y="5" width="20" height="14" rx="2" />
+                <line x1="2" y1="10" x2="22" y2="10" />
+              </svg>
               <h3 style={{ fontSize: '1.125rem', marginBottom: '8px' }}>eSewa &amp; Khalti Analytics</h3>
               <p style={{ fontSize: '0.875rem', color: 'var(--gray)', lineHeight: 1.6 }}>Gateway redirects break default purchase tracking loops. We write custom Javascript tracking layers to capture conversion signals and ROI from local checkouts.</p>
             </div>
 
             <div style={{ border: '1px solid var(--border)', padding: 'var(--s4)', display: 'flex', flexDirection: 'column' }}>
-              <div style={{ fontSize: '1.75rem', marginBottom: '12px' }}>🌐</div>
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ color: 'var(--lime)', marginBottom: '12px' }} aria-hidden="true">
+                <circle cx="12" cy="12" r="10" />
+                <line x1="2" y1="12" x2="22" y2="12" />
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+              </svg>
               <h3 style={{ fontSize: '1.125rem', marginBottom: '8px' }}>Local Hosting &amp; Edge Latency</h3>
               <p style={{ fontSize: '0.875rem', color: 'var(--gray)', lineHeight: 1.6 }}>Server distances cause network delays. We implement CDN edge configurations (Cloudflare edge nodes) to minimize response routing latency inside Nepal.</p>
             </div>

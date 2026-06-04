@@ -18,9 +18,11 @@ export default function ContactForm() {
   if (submitted) {
     return (
       <div style={{ padding: '40px', textAlign: 'center', background: 'var(--sage)', borderRadius: '4px' }}>
-        <div style={{ fontSize: '2rem', marginBottom: '16px' }}>✅</div>
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{ color: 'var(--lime-dark)', margin: '0 auto 16px', display: 'block' }}>
+          <polyline points="20 6 9 17 4 12" />
+        </svg>
         <h3>Message sent!</h3>
-        <p style={{ color: 'var(--gray)', marginTop: '8px' }}>I'll get back to you within 1–2 business days.</p>
+        <p style={{ color: 'var(--gray)', marginTop: '8px' }}>I&apos;ll get back to you within 1–2 business days.</p>
       </div>
     )
   }
