@@ -30,7 +30,7 @@ const caseStudies = [
   },
   {
     id: 'travel-blog',
-    image: '/case-study-3.png',
+    image: '/travel-dashboard.png',
     client: 'Travel Publisher',
     description: 'Topical map & content architecture redesign that turned a stagnant blog into an authority site.',
     metrics: [
