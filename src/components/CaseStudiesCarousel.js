@@ -43,12 +43,13 @@ const caseStudies = [
   },
   {
     id: 'b2b-services',
-    image: '/case-study-4.png',
+    image: '/b2b-dashboard.png',
     client: 'B2B Services Firm',
     description: 'End-to-end SEO strategy from audit to implementation — doubling qualified lead flow.',
     metrics: [
+      { label: '+195.8% Organic Traffic' },
+      { label: '+98.0% Search Visibility' },
       { label: '+200% Organic Leads' },
-      { label: 'Domain Authority +18pts' },
     ],
     industry: 'Professional Services',
   },
