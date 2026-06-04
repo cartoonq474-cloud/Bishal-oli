@@ -34,7 +34,7 @@ const caseStudies = [
     client: 'Travel Publisher',
     description: 'Topical map & content architecture redesign that turned a stagnant blog into an authority site.',
     metrics: [
-      { label: '+280% Organic Sessions' },
+      { label: '+313.7% Organic Traffic' },
       { label: '60+ Topic Clusters Owned' },
     ],
     industry: 'Travel',
