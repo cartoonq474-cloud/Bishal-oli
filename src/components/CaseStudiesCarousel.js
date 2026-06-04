@@ -106,7 +106,6 @@ export default function CaseStudiesCarousel() {
                   style={{ 
                     objectFit: cs.objectFit || 'cover', 
                     objectPosition: 'center',
-                    inset: cs.objectFit === 'contain' ? '12px' : '0px'
                   }}
                   sizes="300px"
                 />
