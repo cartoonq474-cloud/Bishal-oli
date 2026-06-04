@@ -35,6 +35,7 @@ const caseStudies = [
     description: 'Topical map & content architecture redesign that turned a stagnant blog into an authority site.',
     metrics: [
       { label: '+313.7% Organic Traffic' },
+      { label: '+561.6% Search Visibility' },
       { label: '60+ Topic Clusters Owned' },
     ],
     industry: 'Travel',
