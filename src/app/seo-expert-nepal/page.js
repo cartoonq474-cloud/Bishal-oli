@@ -35,7 +35,7 @@ const jsonLd = {
       'name': 'How much do your SEO services cost in Nepal?',
       'acceptedAnswer': {
         '@type': 'Answer',
-        'text': 'I offer three packages: Starter (NPR 25,000/mo) for local companies, Growth (NPR 45,000/mo) for e-commerce and scaling brands, and Enterprise (NPR 80,000/mo) for advanced SaaS and AI-ready technical implementations.'
+        'text': 'I offer four packages: Starter (NPR 25,000/mo) for local companies, Growth (NPR 45,000/mo) for e-commerce and scaling brands, Enterprise (NPR 80,000/mo) for advanced SaaS, and Corporate / Elite (NPR 150,000/mo) for large enterprise groups and hydropower networks.'
       }
     }
   ]
@@ -62,12 +62,12 @@ export default function SeoExpertNepal() {
       <section className="hero" aria-labelledby="heroHeadline">
         <div className="container hero__container">
           <div className="hero__content">
-            <p className="hero__eyebrow">Bishal Oli - SEO &amp; AI Search Optimization Expert</p>
+            <p className="hero__eyebrow">Bishal Oli — Authority-First SEO Specialist</p>
             <h1 className="hero__headline" id="heroHeadline" style={{ fontSize: 'clamp(2.25rem, 4.2vw, 3.5rem)' }}>
-              Rank on Google.<br />Dominate in AI Search.
+              SEO Expert in Nepal.<br />Built for AI &amp; Google Search.
             </h1>
             <p className="hero__body">
-              Outdate the competition. Rebuild your search presence with modern Semantic SEO, Topical Authority, and Generative Engine Optimization (GEO) structured for ChatGPT, Gemini, and Perplexity citations.
+              Outrank the competition. Rebuild your search visibility with modern Semantic SEO, Topical Authority, and Generative Engine Optimization (GEO) engineered for Google, ChatGPT Search, Gemini, and Perplexity.
             </p>
             <div className="hero__actions">
               <Link href="/contact" className="hero__btn-primary" id="heroCtaPrimary">Request Free SEO Audit</Link>
@@ -109,7 +109,7 @@ export default function SeoExpertNepal() {
               </div>
             </div>
           </div>
-          
+
           <div className="hero__visual">
             <div className="hero__photo-wrap">
               <Image src="/bishal-oli.png" alt="Bishal Oli — SEO and AI Search Optimization Expert in Nepal" width={440} height={560} priority />
@@ -122,51 +122,216 @@ export default function SeoExpertNepal() {
         </div>
       </section>
 
-      {/* WHAT MAKES ME DIFFERENT */}
-      <section className="section" aria-labelledby="differentiatorsHeading" style={{ background: 'var(--ivory)' }}>
+      {/* SECTION 1: WHY NEPAL BUSINESSES NEED SEO NOW */}
+      <section className="section" aria-labelledby="whySeoHeading" style={{ background: 'var(--white)', borderBottom: '1px solid var(--border)' }}>
         <div className="container">
           <div className="section-header">
-            <p className="eyebrow">Why Work With Me</p>
-            <h2 id="differentiatorsHeading" style={{ maxWidth: '20ch' }}>SEO built for the future of search.</h2>
-            <p className="text-gray" style={{ maxWidth: '52ch', marginTop: 'var(--s3)' }}>
-              Traditional SEO agencies in Nepal rely on keyword density and link farms. My strategy is built on search meaning, structured schema graphs, and LLM readability.
+            <p className="eyebrow">Market Dynamics</p>
+            <h2 id="whySeoHeading" style={{ maxWidth: '24ch' }}>Why SEO is the high-ROI growth channel in Nepal today.</h2>
+            <p className="text-gray" style={{ maxWidth: '56ch', marginTop: 'var(--s3)' }}>
+              With rising advertising costs on Facebook and Google Ads, buying clicks is no longer sustainable. Capturing high-intent organic searchers is how businesses compound growth.
             </p>
           </div>
 
-          <div className="pillars-grid">
+          <div className="pillars-grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', marginTop: 'var(--s6)' }}>
+            <div className="pillar">
+              <div className="pillar-num">01</div>
+              <h3>Rising Ads Competition</h3>
+              <p>Every business in Kathmandu, Pokhara, and Biratnagar is bidding for Google Ads. Runaway ad costs are crushing margins. Building organic authority secures long-term market share for zero cost per click.</p>
+            </div>
+            <div className="pillar">
+              <div className="pillar-num">02</div>
+              <h3>Mobile Search Dominance</h3>
+              <p>Over 85% of queries in Nepal originate on smartphones. Being invisible on localized search grids means losing clients directly to competitors who prioritize fast mobile index optimization.</p>
+            </div>
+            <div className="pillar">
+              <div className="pillar-num">03</div>
+              <h3>High-Intent Lead Value</h3>
+              <p>Organic search captures buyers at the exact moment they seek solutions (e.g., &quot;trek agency Kathmandu&quot;, &quot;fintech solution Nepal&quot;). These convert up to 5× higher than standard social media campaigns.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* SECTION 2: WHAT AN SEO EXPERT SHOULD DO */}
+      <section className="section" aria-labelledby="whatExpertDoesHeading" style={{ background: 'var(--ivory)', borderBottom: '1px solid var(--border)' }}>
+        <div className="container">
+          <div className="section-header" style={{ textAlign: 'center', margin: '0 auto var(--s6)' }}>
+            <p className="eyebrow" style={{ justifyContent: 'center' }}>Professional Deliverables</p>
+            <h2 id="whatExpertDoesHeading">SEO is more than writing metadata.</h2>
+            <p className="text-gray" style={{ maxWidth: '56ch', margin: 'var(--s3) auto 0' }}>
+              A modern SEO specialist does not just give you a PDF checklist. They actively shape your index depth, structured graph schemas, and search engines integrations.
+            </p>
+          </div>
+
+          <div className="pillars-grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', marginTop: 'var(--s4)' }}>
             {[
               {
                 n: '01',
-                title: 'Generative Engine Ready',
-                text: 'Optimizing your content structure so it gets cited directly as the trusted source in AI-generated answers (ChatGPT, Perplexity, Google AI Overviews).',
-                icon: <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2a10 10 0 1 0 10 10" /><circle cx="19" cy="5" r="3" fill="currentColor" stroke="none" /></svg>
+                title: 'Technical Crawl Optimization',
+                text: 'Fixing indexation errors, duplicate parameters, internal links waterfalls, schema JSON-LD loops, and rendering performance variables directly in your site codebase.',
               },
               {
                 n: '02',
-                title: 'Semantic & Entity Focus',
-                text: 'Mapping search intent to concepts and entities rather than plain keywords. We build search relevance Google\'s BERT and MUM algorithms understand.',
-                icon: <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="5" r="2" /><circle cx="5" cy="19" r="2" /><circle cx="19" cy="19" r="2" /><line x1="12" y1="7" x2="5" y2="17" /><line x1="12" y1="7" x2="19" y2="17" /></svg>
+                title: 'Topical Authority Mapping',
+                text: 'Building conceptual semantic maps. Instead of chasing singular keywords, we build deep topic clusters that establish absolute contextual relevance.',
               },
               {
                 n: '03',
-                title: 'Developer Implementation',
-                text: 'No wait times or back-and-forth. With a solid frontend development background, I implement schema graphs, speed fixes, and code changes myself.',
-                icon: <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polygon points="12 2 2 7 12 12 22 7 12 2" /><polyline points="2 17 12 22 22 17" /><polyline points="2 12 12 17 22 12" /></svg>
+                title: 'Conversion Flow Audits',
+                text: 'Tracking user interaction paths, testing local checkout gateways conversion scripts, and implementing credibility blocks to maximize page signups.',
               },
               {
                 n: '04',
-                title: 'Verifiable Metrics',
-                text: 'Real-time performance tracking focused on conversions, lead generation, and organic revenue growth — not vanity keyword charts.',
-                icon: <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12" /></svg>
+                title: 'Generative Engine citation (GEO)',
+                text: 'Structuring content entities so your brand gets referenced directly as the primary citation in ChatGPT Search, Gemini, Perplexity, and AI Overviews.',
               }
             ].map((p) => (
               <div key={p.n} className="pillar">
                 <div className="pillar-num">{p.n}</div>
-                <div className="pillar-icon" aria-hidden="true">{p.icon}</div>
                 <h3>{p.title}</h3>
                 <p>{p.text}</p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* SECTION 3: HOW TO CHOOSE A TRUE SEO EXPERT */}
+      <section className="section" aria-labelledby="howToChooseHeading" style={{ background: 'var(--white)', borderBottom: '1px solid var(--border)' }}>
+        <div className="container">
+          <div className="section-header">
+            <p className="eyebrow">Hiring Framework</p>
+            <h2 id="howToChooseHeading" style={{ maxWidth: '24ch' }}>How to evaluate an SEO expert in Nepal.</h2>
+            <p className="text-gray" style={{ maxWidth: '56ch', marginTop: 'var(--s3)' }}>
+              Avoid generalist freelancers who offer guaranteed top spots or spam backlinks. Demand transparency, actual analytics dashboards, and direct technical code access.
+            </p>
+          </div>
+
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: 'var(--s6)', marginTop: 'var(--s6)' }}>
+            <div style={{ border: '1px solid var(--border)', padding: 'var(--s4)', background: 'var(--ivory)' }}>
+              <h3 style={{ fontSize: '1.25rem', marginBottom: 'var(--s3)', color: '#c0392b' }}>❌ Red Flags to Avoid</h3>
+              <ul style={{ listStyleType: 'none', padding: 0, margin: 0, fontSize: '0.9375rem', color: 'var(--gray)' }}>
+                <li style={{ marginBottom: '16px' }}><strong>Guaranteed Rankings:</strong> Search engines modify their ranking systems daily. Anyone promising concrete position numbers is selling outdated black-hat strategies.</li>
+                <li style={{ marginBottom: '16px' }}><strong>Backlink Packages:</strong> Buying bundles of hundreds of links from networks leads directly to manual algorithmic search penalties.</li>
+                <li style={{ marginBottom: '16px' }}><strong>Checklist-Only Audits:</strong> Sending PDF lists of issues for your developers to fix creates bottlenecks. Expect direct code adjustments instead.</li>
+              </ul>
+            </div>
+
+            <div style={{ border: '1px solid var(--border)', padding: 'var(--s4)', background: 'var(--ivory)' }}>
+              <h3 style={{ fontSize: '1.25rem', marginBottom: 'var(--s3)', color: 'var(--lime-dark)' }}>✅ Proof to Demand</h3>
+              <ul style={{ listStyleType: 'none', padding: 0, margin: 0, fontSize: '0.9375rem', color: 'var(--gray)' }}>
+                <li style={{ marginBottom: '16px' }}><strong>Live GSC Traffic Charts:</strong> Request real, unedited Google Search Console dashboards showing sustained click growth.</li>
+                <li style={{ marginBottom: '16px' }}><strong>Topical Map Architecture:</strong> Ask to see how they structure semantic topic models and site maps for entities.</li>
+                <li style={{ marginBottom: '16px' }}><strong>Technical Code Capability:</strong> Test if they can read and edit your CMS structure (WordPress, Next.js, Shopify) to apply modifications directly.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* SECTION 4: COMPARISON TABLE */}
+      <section className="section section--dark" aria-labelledby="hiringComparisonHeading" style={{ borderBottom: '1px solid rgba(255,255,255,0.08)' }}>
+        <div className="container">
+          <div className="section-header">
+            <p className="eyebrow eyebrow--light">Buying Guidance</p>
+            <h2 id="hiringComparisonHeading" style={{ color: 'var(--ivory)', maxWidth: '24ch' }}>Comparing SEO Solutions: Which fits your business?</h2>
+            <p style={{ color: 'rgba(243,237,228,0.6)', maxWidth: '56ch', marginTop: 'var(--s3)' }}>
+              Evaluate the tradeoffs in execution speed, depth of technical mapping, and cost structure before choosing a delivery model.
+            </p>
+          </div>
+
+          <div style={{ overflowX: 'auto', marginTop: 'var(--s6)' }}>
+            <table style={{ width: '100%', borderCollapse: 'collapse', border: '1px solid rgba(255,255,255,0.08)', fontSize: '0.875rem' }}>
+              <thead>
+                <tr style={{ background: '#122622', color: 'var(--ivory)' }}>
+                  <th style={{ padding: '16px', textAlign: 'left', fontWeight: 'bold', borderBottom: '2px solid var(--lime)' }}>Feature</th>
+                  <th style={{ padding: '16px', textAlign: 'left', fontWeight: 'bold', borderBottom: '2px solid var(--lime)' }}>Freelancer</th>
+                  <th style={{ padding: '16px', textAlign: 'left', fontWeight: 'bold', borderBottom: '2px solid var(--lime)' }}>General Agency</th>
+                  <th style={{ padding: '16px', textAlign: 'left', fontWeight: 'bold', borderBottom: '2px solid var(--lime)' }}>In-House Team</th>
+                  <th style={{ padding: '16px', textAlign: 'left', fontWeight: 'bold', borderBottom: '2px solid var(--lime)', borderLeft: '1px solid rgba(255,255,255,0.08)' }}>Bishal Oli (SEO Expert)</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  { f: 'Average Monthly Cost', fr: 'NPR 15K - 30K', ag: 'NPR 60K - 120K+', ih: 'NPR 150K+ (Salaries)', bo: 'NPR 25K - 80K (Retainers)' },
+                  { f: 'Execution Speed', fr: 'Slow (Solo capacity)', ag: 'Slow (Multi-layered approvals)', ih: 'Medium (Internal priorities)', bo: 'Fast (Direct code access)' },
+                  { f: 'Technical & Schema Updates', fr: 'Rarely (Need your dev)', ag: 'No (Sends checklist task)', ih: 'Depends on internal devs', bo: 'Yes (Direct codebase changes)' },
+                  { f: 'AI/GEO Citation Strategy', fr: 'No (Traditional keywords)', ag: 'No (Standard templates)', ih: 'Requires constant training', bo: 'Yes (Structured Entity graphs)' },
+                  { f: 'Reporting Detail', fr: 'Low (Basic pdf list)', ag: 'Medium (Automated templates)', ih: 'High (Meetings)', bo: 'High (Commercial GSC clicks & ROI)' },
+                  { f: 'Best-Fit Business', fr: 'Micro local stores', ag: 'Mid-market static websites', ih: 'Massive portal operations', bo: 'SaaS, E-commerce, Hydro, Travel & B2B' }
+                ].map((row, idx) => (
+                  <tr key={idx} style={{ borderBottom: '1px solid rgba(255,255,255,0.08)', background: idx % 2 === 1 ? 'rgba(255,255,255,0.02)' : 'none' }}>
+                    <td style={{ padding: '16px', fontWeight: 'bold', color: 'var(--ivory)' }}>{row.f}</td>
+                    <td style={{ padding: '16px', color: 'rgba(243,237,228,0.6)' }}>{row.fr}</td>
+                    <td style={{ padding: '16px', color: 'rgba(243,237,228,0.6)' }}>{row.ag}</td>
+                    <td style={{ padding: '16px', color: 'rgba(243,237,228,0.6)' }}>{row.ih}</td>
+                    <td style={{ padding: '16px', color: 'var(--lime)', fontWeight: 'bold', borderLeft: '1px solid rgba(255,255,255,0.08)' }}>{row.bo}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      {/* SECTION 5: NEPAL-SPECIFIC SEO CHALLENGES */}
+      <section className="section" aria-labelledby="nepalChallengesHeading" style={{ background: 'var(--white)', borderBottom: '1px solid var(--border)' }}>
+        <div className="container">
+          <div className="section-header">
+            <p className="eyebrow">Local Nuances</p>
+            <h2 id="nepalChallengesHeading" style={{ maxWidth: '24ch' }}>Technical realities of optimizing websites in Nepal.</h2>
+            <p className="text-gray" style={{ maxWidth: '56ch', marginTop: 'var(--s3)' }}>
+              Standard global SEO strategies ignore local connectivity limits, checkout flow redirections, and multi-regional Nepalese search dynamics.
+            </p>
+          </div>
+
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: 'var(--s4)', marginTop: 'var(--s6)' }}>
+            <div style={{ border: '1px solid var(--border)', padding: 'var(--s4)', display: 'flex', flexDirection: 'column' }}>
+              <div style={{ fontSize: '1.75rem', marginBottom: '12px' }}>⚡</div>
+              <h3 style={{ fontSize: '1.125rem', marginBottom: '8px' }}>Low-Bandwidth Mobile Speed</h3>
+              <p style={{ fontSize: '0.875rem', color: 'var(--gray)', lineHeight: 1.6 }}>Many regional users browse on unstable 3G/4G connections. We compress files, structure layout parameters, and resolve rendering blocks so pages open instantly on weak mobile networks.</p>
+            </div>
+
+            <div style={{ border: '1px solid var(--border)', padding: 'var(--s4)', display: 'flex', flexDirection: 'column' }}>
+              <div style={{ fontSize: '1.75rem', marginBottom: '12px' }}>💳</div>
+              <h3 style={{ fontSize: '1.125rem', marginBottom: '8px' }}>eSewa &amp; Khalti Analytics</h3>
+              <p style={{ fontSize: '0.875rem', color: 'var(--gray)', lineHeight: 1.6 }}>Gateway redirects break default purchase tracking loops. We write custom Javascript tracking layers to capture conversion signals and ROI from local checkouts.</p>
+            </div>
+
+            <div style={{ border: '1px solid var(--border)', padding: 'var(--s4)', display: 'flex', flexDirection: 'column' }}>
+              <div style={{ fontSize: '1.75rem', marginBottom: '12px' }}>🌐</div>
+              <h3 style={{ fontSize: '1.125rem', marginBottom: '8px' }}>Local Hosting &amp; Edge Latency</h3>
+              <p style={{ fontSize: '0.875rem', color: 'var(--gray)', lineHeight: 1.6 }}>Server distances cause network delays. We implement CDN edge configurations (Cloudflare edge nodes) to minimize response routing latency inside Nepal.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* SECTION 6: MULTILINGUAL & SEARCH INTENT DEPTH */}
+      <section className="section" aria-labelledby="multilingualHeading" style={{ background: 'var(--ivory)', borderBottom: '1px solid var(--border)' }}>
+        <div className="container">
+          <div className="section-header">
+            <p className="eyebrow">Search Intent Architecture</p>
+            <h2 id="multilingualHeading" style={{ maxWidth: '24ch' }}>Capturing bilingual and Romanized Nepali search patterns.</h2>
+            <p className="text-gray" style={{ maxWidth: '56ch', marginTop: 'var(--s3)' }}>
+              Nepalese search intent is highly hybrid. Users switch dynamically between English, Devnagari script, and Romanized Nepali phonetic queries.
+            </p>
+          </div>
+
+          <div className="pillars-grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', marginTop: 'var(--s6)' }}>
+            <div className="pillar">
+              <h3>Romanized Nepali Intent</h3>
+              <p>Optimizing content structure for phonetically typed local terms (e.g., &quot;sasto ticket Kathmandu to Pokhara&quot; or &quot;ghar bhada ma Kathmandu&quot;), aligning with natural search patterns.</p>
+            </div>
+            <div className="pillar">
+              <h3>Devnagari Script Targeting</h3>
+              <p>Structuring clean bilingual layouts to capture script search parameters, preventing index errors and ensuring Google reads separate translation nodes correctly.</p>
+            </div>
+            <div className="pillar">
+              <h3>Local Voice Query Formatting</h3>
+              <p>Structuring FAQ JSON schemas to capture mobile conversational voice queries (e.g., &quot;Kathmandu ko best hotel kun ho?&quot;) which are rapidly expanding in Nepal.</p>
+            </div>
           </div>
         </div>
       </section>
@@ -238,12 +403,12 @@ export default function SeoExpertNepal() {
             </p>
           </div>
 
-          <div className="services-grid">
+          <div className="services-grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))' }}>
             <div className="service-card">
               <span className="cs-card__industry">NPR 25,000 / month</span>
               <h3 style={{ margin: 'var(--s2) 0', fontSize: '1.25rem' }}>Starter Package</h3>
               <p>Ideal for local businesses and professional service clinics looking to dominate neighborhood searches and Google Maps in Nepal.</p>
-              <ul style={{ margin: 'var(--s3) 0', fontSize: '0.875rem', color: 'var(--gray)', lineStyleType: 'none', padding: 0 }}>
+              <ul style={{ margin: 'var(--s3) 0', fontSize: '0.875rem', color: 'var(--gray)', listStyleType: 'none', padding: 0 }}>
                 <li style={{ marginBottom: '8px' }}>✔ Google Business Profile Setup</li>
                 <li style={{ marginBottom: '8px' }}>✔ Local Citation Building</li>
                 <li style={{ marginBottom: '8px' }}>✔ 10-15 Target Entity Mapping</li>
@@ -256,7 +421,7 @@ export default function SeoExpertNepal() {
               <span className="cs-card__industry" style={{ color: 'var(--lime-dark)', fontWeight: 'bold' }}>NPR 45,000 / month (Recommended)</span>
               <h3 style={{ margin: 'var(--s2) 0', fontSize: '1.25rem' }}>Growth Package</h3>
               <p>Best for active E-commerce stores, travel companies, and scaling platforms targeting high-intent topic clusters in competitive spaces.</p>
-              <ul style={{ margin: 'var(--s3) 0', fontSize: '0.875rem', color: 'var(--gray)', lineStyleType: 'none', padding: 0 }}>
+              <ul style={{ margin: 'var(--s3) 0', fontSize: '0.875rem', color: 'var(--gray)', listStyleType: 'none', padding: 0 }}>
                 <li style={{ marginBottom: '8px' }}>✔ Complete Topical Map blueprint</li>
                 <li style={{ marginBottom: '8px' }}>✔ Semantic Content strategy &amp; brief building</li>
                 <li style={{ marginBottom: '8px' }}>✔ Technical speed &amp; Core Web Vitals optimization</li>
@@ -269,11 +434,24 @@ export default function SeoExpertNepal() {
               <span className="cs-card__industry">NPR 80,000 / month</span>
               <h3 style={{ margin: 'var(--s2) 0', fontSize: '1.25rem' }}>Enterprise / SaaS</h3>
               <p>For SaaS tech platforms and companies targeting highly competitive global markets demanding advanced AI search positioning.</p>
-              <ul style={{ margin: 'var(--s3) 0', fontSize: '0.875rem', color: 'var(--gray)', lineStyleType: 'none', padding: 0 }}>
+              <ul style={{ margin: 'var(--s3) 0', fontSize: '0.875rem', color: 'var(--gray)', listStyleType: 'none', padding: 0 }}>
                 <li style={{ marginBottom: '8px' }}>✔ Generative Engine Optimization (GEO)</li>
                 <li style={{ marginBottom: '8px' }}>✔ Direct codebase developer implementations</li>
                 <li style={{ marginBottom: '8px' }}>✔ Product-led growth SEO mapping</li>
                 <li style={{ marginBottom: '8px' }}>✔ Dedicated Slack channel &amp; weekly sync calls</li>
+              </ul>
+              <Link href="/contact" className="btn btn-outline" style={{ marginTop: 'auto', textAlign: 'center', width: '100%', display: 'block' }}>Get Started</Link>
+            </div>
+
+            <div className="service-card">
+              <span className="cs-card__industry">NPR 150,000 / month</span>
+              <h3 style={{ margin: 'var(--s2) 0', fontSize: '1.25rem' }}>Corporate / Elite</h3>
+              <p>Built for large scale conglomerates, remittance platforms, banking networks, telecom grids, and hydropower operations in Nepal.</p>
+              <ul style={{ margin: 'var(--s3) 0', fontSize: '0.875rem', color: 'var(--gray)', listStyleType: 'none', padding: 0 }}>
+                <li style={{ marginBottom: '8px' }}>✔ Compliance &amp; Multi-Dept Reporting</li>
+                <li style={{ marginBottom: '8px' }}>✔ Data Warehouse &amp; Analytics Integration</li>
+                <li style={{ marginBottom: '8px' }}>✔ High Authority Digital PR Assets</li>
+                <li style={{ marginBottom: '8px' }}>✔ Weekly Sync Meeting &amp; Dedicated Dev Team</li>
               </ul>
               <Link href="/contact" className="btn btn-outline" style={{ marginTop: 'auto', textAlign: 'center', width: '100%', display: 'block' }}>Get Started</Link>
             </div>

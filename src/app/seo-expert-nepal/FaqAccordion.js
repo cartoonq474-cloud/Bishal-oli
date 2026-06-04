@@ -9,6 +9,14 @@ const faqData = {
       a: 'Two major things: (1) I specialize in Semantic SEO and AI Search Optimization (GEO/AEO). While traditional SEOs in Nepal focus on basic keyword stuffing and link packages, I build entity-relationship maps and structure content to get cited in AI systems like ChatGPT, Perplexity, and Gemini. (2) I have a strong developer background, meaning I audit and implement technical fixes directly without developer bottlenecks.'
     },
     {
+      q: 'Do you guarantee #1 rankings?',
+      a: "No professional SEO expert can guarantee #1 rankings on Google. Search engine algorithms change continuously and search platforms are owned by third parties. However, I guarantee complete transparency, clean strategic execution based on entity authority, and a focus on commercial metrics that drive actual revenue and citations."
+    },
+    {
+      q: 'Do you handle both local and global SEO?',
+      a: 'Yes. I handle local SEO campaigns (dominating the Google Map pack and localized search queries in Kathmandu, Pokhara, Biratnagar, etc.) as well as highly competitive global SEO campaigns (targeting international markets for SaaS startups, travel directories, and large-scale E-commerce brands).'
+    },
+    {
       q: 'Do you only work with businesses in Nepal?',
       a: 'No. While I am based in Nepal and help local businesses (hotels, trekking agencies, startups) dominate search, I work with clients globally, including tech companies and e-commerce stores in Australia, the US, and Europe. SEO is borderless, and remote collaboration is seamless.'
     },
@@ -20,7 +28,7 @@ const faqData = {
   Pricing: [
     {
       q: 'How much do your SEO services cost in Nepal?',
-      a: 'I offer three clear packages tailored to your business needs: Starter (NPR 25,000/mo) for local companies, Growth (NPR 45,000/mo) for e-commerce and scaling brands, and Enterprise (NPR 80,000/mo) for advanced SaaS and AI-ready technical implementations. Custom consulting is also available.'
+      a: 'I offer four clear packages tailored to your business scale: Starter (NPR 25,000/mo) for local companies, Growth (NPR 45,000/mo) for e-commerce and scaling brands, Enterprise (NPR 80,000/mo) for advanced SaaS, and Corporate / Elite (NPR 150,000/mo) for enterprise networks. Custom consulting is also available.'
     },
     {
       q: 'Do you require a long-term contract?',
@@ -28,7 +36,7 @@ const faqData = {
     },
     {
       q: 'What is included in the Free SEO Audit?',
-      a: 'The free audit is a manual overview of your website\'s current crawlability, indexation status, speed, core semantic structure, and immediate organic ranking opportunities. It comes with a 15-minute video walkthrough.'
+      a: "The free audit is a manual overview of your website's current crawlability, indexation status, speed, core semantic structure, and immediate organic ranking opportunities. It comes with a 15-minute video walkthrough."
     }
   ],
   Process: [
@@ -39,6 +47,14 @@ const faqData = {
     {
       q: 'How do you measure and report progress?',
       a: 'Every month you receive a clear, commercial-focused report detailing organic search impressions growth, clicks/traffic, conversions, and citations earned in AI search engines. I connect SEO metrics directly to your business outcomes.'
+    },
+    {
+      q: 'How does AI Search / GEO optimization work?',
+      a: 'Generative Engine Optimization (GEO) involves structuring content with Schema JSON-LD graphs, optimizing entity associations, writing clear and direct answers for LLM ingestion, and earning citations on authoritative context sources that AI models index.'
+    },
+    {
+      q: 'How do you handle content creation and link building?',
+      a: 'I establish a topical map framework and write semantic briefs for your writers. If needed, I can provide copywriters. For authority building, I reject link farms; instead, we build high-quality linkable content assets and perform clean digital PR outreach.'
     }
   ]
 }
