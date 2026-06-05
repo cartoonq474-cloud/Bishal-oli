@@ -241,6 +241,57 @@ export default function SeoExpertNepal() {
         </div>
       </section>
 
+      {/* WHY CHOOSE BISHAL */}
+      <section className="section section--dark" aria-labelledby="whyChooseBishalHeading" style={{ padding: '80px 0', background: '#0a0a0a', borderBottom: '1px solid rgba(255,255,255,0.08)' }}>
+        <div className="container" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: 'var(--s8)', alignItems: 'center' }}>
+          {/* Left: Image with custom background split */}
+          <div style={{ position: 'relative', width: '100%', height: '100%', minHeight: '380px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+            {/* Dark background overlay block resembling the design */}
+            <div style={{ position: 'absolute', right: 0, top: 0, bottom: 0, left: '20%', background: '#122622', zIndex: 1, borderRadius: '4px' }}></div>
+            <div style={{ position: 'relative', zIndex: 2, width: '100%', maxWidth: '360px', height: '440px' }}>
+              <Image 
+                src="/bishal-oli.png" 
+                alt="Bishal Oli — SEO Expert in Nepal" 
+                fill 
+                style={{ objectFit: 'contain', objectPosition: 'bottom' }} 
+              />
+            </div>
+          </div>
+
+          {/* Right: Content */}
+          <div style={{ zIndex: 2 }}>
+            <p className="eyebrow eyebrow--light" style={{ marginBottom: '16px' }}>SEO Expert in Nepal</p>
+            <h2 id="whyChooseBishalHeading" style={{ color: '#ffffff', fontSize: 'clamp(1.75rem, 3vw, 2.5rem)', lineHeight: 1.15, marginBottom: '24px' }}>
+              Why choose <span style={{ color: 'var(--lime)' }}>Bishal</span> as your <span style={{ color: 'var(--lime)' }}>SEO Expert</span>?
+            </h2>
+            <p style={{ color: 'rgba(255,255,255,0.7)', fontSize: '0.9375rem', lineHeight: 1.6, marginBottom: '16px' }}>
+              Bishal helps businesses rank their websites on the first page of Google by optimizing their topical authority and semantic search footprints.
+            </p>
+            <p style={{ color: 'rgba(255,255,255,0.7)', fontSize: '0.9375rem', lineHeight: 1.6, marginBottom: '32px' }}>
+              He specializes in E-Commerce SEO, SaaS SEO, and travel platform architectures. Bishal also offers custom topical maps mapping entities directly to local and international search intent.
+            </p>
+
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '20px 24px' }}>
+              {[
+                '5+ Years of SEO Experience',
+                'AI and Semantic Search Expert',
+                '40+ Successful SEO Projects',
+                'Proven SEO Strategies for Nepali Markets (Ecommerce, SaaS, Local Businesses)',
+                'Local, National, and International SEO Specialization',
+                'Data-driven, ROI-focused, and client-centric SEO strategies.'
+              ].map((item, idx) => (
+                <div key={idx} style={{ display: 'flex', alignItems: 'flex-start', gap: '10px' }}>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--lime)" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0, marginTop: '2px' }} aria-hidden="true">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                  <span style={{ color: 'rgba(255,255,255,0.85)', fontSize: '0.875rem', lineHeight: 1.4 }}>{item}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* SECTION 4: COMPARISON TABLE */}
       <section className="section section--dark" aria-labelledby="hiringComparisonHeading" style={{ borderBottom: '1px solid rgba(255,255,255,0.08)' }}>
         <div className="container">
