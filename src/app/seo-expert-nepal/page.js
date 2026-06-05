@@ -242,7 +242,7 @@ export default function SeoExpertNepal() {
       </section>
 
       {/* WHY CHOOSE BISHAL */}
-      <section className="section section--dark" aria-labelledby="whyChooseBishalHeading" style={{ padding: '80px 0', background: '#0a0a0a', borderBottom: '1px solid rgba(255,255,255,0.08)' }}>
+      <section className="section section--dark" aria-labelledby="whyChooseBishalHeading" style={{ padding: '80px 0', background: 'var(--black)', borderBottom: '1px solid rgba(255,255,255,0.08)' }}>
         <div className="container" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: 'var(--s8)', alignItems: 'center' }}>
           {/* Left: Framed Image */}
           <div style={{ position: 'relative', width: '100%', display: 'flex', justifyContent: 'center', minHeight: '440px', alignItems: 'center' }}>
@@ -252,7 +252,7 @@ export default function SeoExpertNepal() {
               width: '100%', 
               maxWidth: '340px', 
               height: '420px', 
-              background: '#122622', 
+              background: 'var(--lime)', 
               borderRadius: '8px', 
               transform: 'translate(12px, 12px)', 
               zIndex: 1 
@@ -266,7 +266,7 @@ export default function SeoExpertNepal() {
               maxWidth: '340px', 
               height: '420px', 
               background: '#ffffff',
-              border: '12px solid #1a2822', 
+              border: '12px solid var(--black)', 
               borderRadius: '8px', 
               overflow: 'hidden',
               boxShadow: '0 20px 40px rgba(0,0,0,0.4)'
