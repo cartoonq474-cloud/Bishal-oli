@@ -295,7 +295,7 @@ export default function SeoExpertNepal() {
 
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '20px 24px' }}>
               {[
-                '5+ Years of SEO Experience',
+                '3+ Years of SEO Experience',
                 'AI and Semantic Search Expert',
                 '40+ Successful SEO Projects',
                 'Proven SEO Strategies for Nepali Markets (Ecommerce, SaaS, Local Businesses)',
