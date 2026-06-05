@@ -429,6 +429,140 @@ export default function SeoExpertNepal() {
         </div>
       </section>
 
+      {/* SECTION: PROFESSIONAL SEO TOOLS I USE */}
+      <section className="section" aria-labelledby="toolsHeading" style={{ background: 'var(--ivory)', borderBottom: '1px solid var(--border)', padding: '80px 0' }}>
+        <div className="container">
+          <div className="section-header" style={{ textAlign: 'center', margin: '0 auto var(--s8)' }}>
+            <h2 id="toolsHeading">Professional SEO Tools I Use</h2>
+            <p className="text-gray" style={{ maxWidth: '56ch', margin: 'var(--s3) auto 0' }}>
+              I use industry-leading SEO tools and platforms to deliver data-driven results for my clients.
+            </p>
+          </div>
+
+          <div className="tools-grid">
+            {[
+              {
+                name: 'Google Search Console',
+                logo: (
+                  <svg width="150" height="32" viewBox="0 0 150 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    {/* Search Console Radar Icon */}
+                    <g transform="translate(4, 2)">
+                      <circle cx="12" cy="12" r="10" stroke="#E2E8F0" strokeWidth="2" />
+                      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z" fill="#4285F4" />
+                      <path d="M12 6c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6zm0 10.5c-2.48 0-4.5-2.02-4.5-4.5S9.52 7.5 12 7.5 16.5 9.52 16.5 12s-2.02 4.5-4.5 4.5z" fill="#34A853" />
+                      <path d="M12 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z" fill="#FBBC05" />
+                      <path d="M12 11c-.55 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z" fill="#EA4335" />
+                    </g>
+                    {/* Text */}
+                    <text x="36" y="15" fontFamily="var(--font-body)" fontSize="9" fontWeight="500" fill="#757575">Google</text>
+                    <text x="36" y="27" fontFamily="var(--font-display)" fontSize="11" fontWeight="800" fill="var(--black)">Search Console</text>
+                  </svg>
+                )
+              },
+              {
+                name: 'Google Analytics 4',
+                logo: (
+                  <svg width="140" height="32" viewBox="0 0 140 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    {/* Analytics graph bars */}
+                    <path d="M8 24c0 .55.45 1 1 1h2c.55 0 1-.45 1-1v-6c0-.55-.45-1-1-1H9c-.55 0-1 .45-1 1v6z" fill="#F9AB00" />
+                    <path d="M15 24c0 .55.45 1 1 1h2c.55 0 1-.45 1-1v-12c0-.55-.45-1-1-1h-2c-.55 0-1 .45-1 1v12z" fill="#E37400" />
+                    <path d="M22 24c0 .55.45 1 1 1h2c.55 0 1-.45 1-1V6c0-.55-.45-1-1-1h-2c-.55 0-1 .45-1 1v18z" fill="#F57C00" />
+                    {/* Text */}
+                    <text x="36" y="15" fontFamily="var(--font-body)" fontSize="9" fontWeight="500" fill="#757575">Google</text>
+                    <text x="36" y="27" fontFamily="var(--font-display)" fontSize="11" fontWeight="800" fill="var(--black)">Analytics 4</text>
+                  </svg>
+                )
+              },
+              {
+                name: 'Ahrefs',
+                logo: (
+                  <svg width="110" height="32" viewBox="0 0 110 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    {/* Wordmark logo */}
+                    <text x="5" y="23" fontFamily="var(--font-display)" fontSize="22" fontWeight="900" fill="var(--black)" letterSpacing="-0.04em">ahrefs</text>
+                    {/* Ahrefs triangle accent */}
+                    <path d="M92 18 L98 10 L104 22" stroke="#FF4F00" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+                    <circle cx="98" cy="10" r="3" fill="#FF4F00" />
+                  </svg>
+                )
+              },
+              {
+                name: 'SEMrush',
+                logo: (
+                  <svg width="120" height="32" viewBox="0 0 120 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    {/* SEMrush Fireball Icon */}
+                    <circle cx="16" cy="16" r="9" fill="#FF642C" />
+                    <path d="M16 10c-3.31 0-6 2.69-6 6s2.69 6 6 6" stroke="#FFFFFF" strokeWidth="1.5" strokeLinecap="round" />
+                    <circle cx="16" cy="16" r="1.5" fill="#FFFFFF" />
+                    {/* Text */}
+                    <text x="34" y="21" fontFamily="var(--font-display)" fontSize="14" fontWeight="900" fill="var(--black)" letterSpacing="0.04em">SEMRUSH</text>
+                  </svg>
+                )
+              },
+              {
+                name: 'Claude AI',
+                logo: (
+                  <svg width="110" height="32" viewBox="0 0 110 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    {/* Claude Icon */}
+                    <g fill="#CC5A37">
+                      <circle cx="14" cy="16" r="2" />
+                      <path d="M14 9c-.3 0-.5.2-.5.5v2c0 .3.2.5.5.5s.5-.2.5-.5v-2c0-.3-.2-.5-.5-.5z" />
+                      <path d="M14 19c-.3 0-.5.2-.5.5v2c0 .3.2.5.5.5s.5-.2.5-.5v-2c0-.3-.2-.5-.5-.5z" />
+                      <path d="M7 16c0-.3.2-.5.5-.5h2c.3 0 .5.2.5.5s-.2.5-.5.5h-2c-.3 0-.5-.2-.5-.5z" />
+                      <path d="M18 16c0-.3.2-.5.5-.5h2c.3 0 .5.2.5.5s-.2.5-.5.5h-2c-.3 0-.5-.2-.5-.5z" />
+                      <path d="M9 11c-.2-.2-.2-.5 0-.7l1.4-1.4c.2-.2.5-.2.7 0s.2.5 0 .7l-1.4 1.4c-.2.2-.5.2-.7 0z" />
+                      <path d="M16 18c-.2-.2-.2-.5 0-.7l1.4-1.4c.2-.2.5-.2.7 0s.2.5 0 .7l-1.4 1.4c-.2.2-.5.2-.7 0z" />
+                      <path d="M9 21c-.2.2-.5.2-.7 0l-1.4-1.4c-.2-.2-.2-.5 0-.7s.5-.2.7 0l1.4 1.4c.2.2.2.5 0 .7z" />
+                      <path d="M16 13c-.2.2-.5.2-.7 0l-1.4-1.4c-.2-.2-.2-.5 0-.7s.5-.2.7 0l1.4 1.4c.2.2.2.5 0 .7z" />
+                    </g>
+                    {/* Text */}
+                    <text x="28" y="22" fontFamily="'Georgia', serif" fontSize="16" fontWeight="700" fill="#CC5A37">Claude</text>
+                  </svg>
+                )
+              },
+              {
+                name: 'VS Code',
+                logo: (
+                  <svg width="36" height="36" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    {/* VS Code blue icon only, centered inside the card */}
+                    <path d="M198.8 33.6L113.7 100.4l-31.5-23.8L13.1 133.7c-3.1 4.5-3.1 10.5 0 15l69.1 57.1 31.5-23.8 85.1 66.8c6.6 5.2 16.3.5 16.3-7.9V41.5c0-8.4-9.7-13.1-16.3-7.9z" fill="#007ACC" />
+                    <path d="M198.8 33.6l-85.1 66.8-40.2-30.4c-4.9-3.7-11.8-2.6-15.3 2.5L13.1 133.7c-3.1 4.5-3.1 10.5 0 15l45.1 61.2c3.5 5.1 10.4 6.2 15.3 2.5l40.2-30.4 85.1 66.8c6.6 5.2 16.3.5 16.3-7.9V41.5c0-8.4-9.7-13.1-16.3-7.9z" fill="#0066B3" />
+                    <path d="M198.8 33.6L113.7 100.4l-42.5-32.1L13.1 133.7c-3.1 4.5-3.1 10.5 0 15l69.1 57.1 42.5-32.1 74.1 58.2c6.6 5.2 16.3.5 16.3-7.9V41.5c0-8.4-9.7-13.1-16.3-7.9z" fill="#1F9CF0" />
+                    <path d="M198.8 41.5v173c0 8.4-9.7 13.1-16.3 7.9L71.2 125.6l111.3-87.1c6.6-5.2 16.3-.5 16.3 3z" fill="#3C9FEF" />
+                  </svg>
+                )
+              },
+              {
+                name: 'PageSpeed Insights',
+                logo: (
+                  <svg width="150" height="32" viewBox="0 0 150 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    {/* Speed dial gauge */}
+                    <g transform="translate(4, 2)">
+                      <circle cx="14" cy="14" r="11" stroke="#E2E8F0" strokeWidth="2" />
+                      <path d="M14 3a11 11 0 0 1 11 11" stroke="#4285F4" strokeWidth="2.5" />
+                      <path d="M25 14a11 11 0 0 1-11 11" stroke="#34A853" strokeWidth="2.5" />
+                      <path d="M14 25a11 11 0 0 1-11-11" stroke="#FBBC05" strokeWidth="2.5" />
+                      <path d="M3 14A11 11 0 0 1 14 3" stroke="#EA4335" strokeWidth="2.5" />
+                      <path d="M14 14l6-6" stroke="var(--black)" strokeWidth="1.5" strokeLinecap="round" />
+                      <circle cx="14" cy="14" r="1.5" fill="var(--black)" />
+                    </g>
+                    {/* Text */}
+                    <text x="36" y="15" fontFamily="var(--font-body)" fontSize="9" fontWeight="500" fill="#757575">Google</text>
+                    <text x="36" y="27" fontFamily="var(--font-display)" fontSize="11" fontWeight="800" fill="var(--black)">PageSpeed</text>
+                  </svg>
+                )
+              }
+            ].map((tool, idx) => (
+              <div key={idx} className="tool-item">
+                <div className="tool-card">
+                  {tool.logo}
+                </div>
+                <span className="tool-name">{tool.name}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* STRATEGY COMPARISON */}
       <section className="section section--dark" aria-labelledby="comparisonHeading">
         <div className="container">
