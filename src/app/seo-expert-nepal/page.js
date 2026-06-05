@@ -476,12 +476,11 @@ export default function SeoExpertNepal() {
               {
                 name: 'Ahrefs',
                 logo: (
-                  <svg width="110" height="32" viewBox="0 0 110 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                    {/* Wordmark logo */}
-                    <text x="5" y="23" fontFamily="var(--font-display)" fontSize="22" fontWeight="900" fill="var(--black)" letterSpacing="-0.04em">ahrefs</text>
-                    {/* Ahrefs triangle accent */}
-                    <path d="M92 18 L98 10 L104 22" stroke="#FF4F00" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
-                    <circle cx="98" cy="10" r="3" fill="#FF4F00" />
+                  <svg width="100" height="32" viewBox="0 0 100 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <text x="50%" y="24" fontFamily="var(--font-display), 'Inter', sans-serif" fontSize="26" fontWeight="900" letterSpacing="-0.06em" textAnchor="middle">
+                      <tspan fill="#FF8000">a</tspan>
+                      <tspan fill="#3557EC">hrefs</tspan>
+                    </text>
                   </svg>
                 )
               },
