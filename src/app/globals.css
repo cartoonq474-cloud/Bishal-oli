@@ -2172,7 +2172,7 @@ p { font-size: 1.0625rem; line-height: 1.7; }
 
 /* === EXPERTISE SECTION === */
 .expertise-section {
-  background: #E2E8F0; /* Soft slate/blue-gray tint matching the image */
+  background: var(--ivory); /* Brand warm ivory background */
   padding: var(--s16) 0;
   border-bottom: 1px solid var(--border);
 }
@@ -2182,8 +2182,8 @@ p { font-size: 1.0625rem; line-height: 1.7; }
 .expertise-badge {
   display: inline-block;
   padding: 6px 14px;
-  background: #0020E6; /* Vivid blue */
-  color: #ffffff;
+  background: var(--black); /* Brand deep dark green-black */
+  color: var(--lime); /* Brand vivid lime green */
   font-family: var(--font-body);
   font-size: 0.6875rem;
   font-weight: 800;
@@ -2196,7 +2196,7 @@ p { font-size: 1.0625rem; line-height: 1.7; }
   font-family: var(--font-display);
   font-size: clamp(2rem, 4.5vw, 3rem);
   font-weight: 900;
-  color: #0D1F1C;
+  color: var(--black);
   line-height: 1.1;
   letter-spacing: -0.02em;
 }
@@ -2209,7 +2209,7 @@ p { font-size: 1.0625rem; line-height: 1.7; }
   background: #ffffff;
   border-radius: 12px;
   padding: var(--s6) var(--s4);
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+  box-shadow: 0 4px 20px rgba(13, 31, 28, 0.02);
   border: 1px solid rgba(13,31,28,0.06);
   transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
   display: flex;
@@ -2217,12 +2217,12 @@ p { font-size: 1.0625rem; line-height: 1.7; }
 }
 .expertise-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 12px 30px rgba(0, 32, 230, 0.06);
-  border-color: rgba(0, 32, 230, 0.2);
+  box-shadow: 0 12px 30px rgba(13, 31, 28, 0.06);
+  border-color: var(--lime-dark);
 }
 .expertise-icon-wrap {
   margin-bottom: var(--s4);
-  color: #0020E6; /* Matching the blue icon color from the image */
+  color: var(--lime-dark); /* Brand green for icon highlights */
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -2231,7 +2231,7 @@ p { font-size: 1.0625rem; line-height: 1.7; }
   font-family: var(--font-display);
   font-size: 1.25rem;
   font-weight: 800;
-  color: #0D1F1C;
+  color: var(--black);
   margin-bottom: var(--s2);
   line-height: 1.25;
   letter-spacing: -0.01em;
