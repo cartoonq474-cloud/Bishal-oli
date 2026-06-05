@@ -244,16 +244,38 @@ export default function SeoExpertNepal() {
       {/* WHY CHOOSE BISHAL */}
       <section className="section section--dark" aria-labelledby="whyChooseBishalHeading" style={{ padding: '80px 0', background: '#0a0a0a', borderBottom: '1px solid rgba(255,255,255,0.08)' }}>
         <div className="container" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: 'var(--s8)', alignItems: 'center' }}>
-          {/* Left: Image with custom background split */}
-          <div style={{ position: 'relative', width: '100%', height: '100%', minHeight: '380px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-            {/* Dark background overlay block resembling the design */}
-            <div style={{ position: 'absolute', right: 0, top: 0, bottom: 0, left: '20%', background: '#122622', zIndex: 1, borderRadius: '4px' }}></div>
-            <div style={{ position: 'relative', zIndex: 2, width: '100%', maxWidth: '360px', height: '440px' }}>
+          {/* Left: Framed Image */}
+          <div style={{ position: 'relative', width: '100%', display: 'flex', justifyContent: 'center', minHeight: '440px', alignItems: 'center' }}>
+            {/* Background offset block acting as the accent frame */}
+            <div style={{ 
+              position: 'absolute', 
+              width: '100%', 
+              maxWidth: '340px', 
+              height: '420px', 
+              background: '#122622', 
+              borderRadius: '8px', 
+              transform: 'translate(12px, 12px)', 
+              zIndex: 1 
+            }}></div>
+            
+            {/* Framed Image Container */}
+            <div style={{ 
+              position: 'relative', 
+              zIndex: 2, 
+              width: '100%', 
+              maxWidth: '340px', 
+              height: '420px', 
+              background: '#ffffff',
+              border: '12px solid #1a2822', 
+              borderRadius: '8px', 
+              overflow: 'hidden',
+              boxShadow: '0 20px 40px rgba(0,0,0,0.4)'
+            }}>
               <Image 
                 src="/bishal-oli.png" 
                 alt="Bishal Oli — SEO Expert in Nepal" 
                 fill 
-                style={{ objectFit: 'contain', objectPosition: 'bottom' }} 
+                style={{ objectFit: 'cover', objectPosition: 'top center' }} 
               />
             </div>
           </div>
