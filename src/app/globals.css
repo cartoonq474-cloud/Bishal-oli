@@ -2164,9 +2164,94 @@ p { font-size: 1.0625rem; line-height: 1.7; }
     background: var(--lime);
     border-radius: 2px;
   }
-  
   .tool-item {
     flex: 0 0 220px;
     scroll-snap-align: center;
   }
 }
+
+/* === EXPERTISE SECTION === */
+.expertise-section {
+  background: #E2E8F0; /* Soft slate/blue-gray tint matching the image */
+  padding: var(--s16) 0;
+  border-bottom: 1px solid var(--border);
+}
+.expertise-header {
+  margin-bottom: var(--s8);
+}
+.expertise-badge {
+  display: inline-block;
+  padding: 6px 14px;
+  background: #0020E6; /* Vivid blue */
+  color: #ffffff;
+  font-family: var(--font-body);
+  font-size: 0.6875rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border-radius: 4px;
+  margin-bottom: var(--s2);
+}
+.expertise-title {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4.5vw, 3rem);
+  font-weight: 900;
+  color: #0D1F1C;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+.expertise-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--s4);
+}
+.expertise-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: var(--s6) var(--s4);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(13,31,28,0.06);
+  transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
+  display: flex;
+  flex-direction: column;
+}
+.expertise-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(0, 32, 230, 0.06);
+  border-color: rgba(0, 32, 230, 0.2);
+}
+.expertise-icon-wrap {
+  margin-bottom: var(--s4);
+  color: #0020E6; /* Matching the blue icon color from the image */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.expertise-card h3 {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #0D1F1C;
+  margin-bottom: var(--s2);
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+}
+.expertise-card p {
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  line-height: 1.6;
+  color: var(--gray);
+  flex: 1;
+}
+
+@media (max-width: 1024px) {
+  .expertise-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 768px) {
+  .expertise-grid {
+    grid-template-columns: 1fr;
+  }
+}
+

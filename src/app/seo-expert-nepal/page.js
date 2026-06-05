@@ -197,6 +197,104 @@ export default function SeoExpertNepal() {
         </div>
       </section>
 
+      {/* SECTION: WHAT CAN I BRING TO YOUR PROJECT? (EXPERTISE) */}
+      <section className="expertise-section" aria-labelledby="expertiseHeading">
+        <div className="container">
+          <div className="expertise-header">
+            <span className="expertise-badge">Expertise</span>
+            <h2 className="expertise-title" id="expertiseHeading">What can I bring to your project?</h2>
+          </div>
+
+          <div className="expertise-grid">
+            <div className="expertise-card">
+              <div className="expertise-icon-wrap">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <circle cx="6" cy="18" r="3" />
+                  <path d="M8.5 15.5L15 9M11.5 12.5l1.5 1.5M13.5 10.5l1.5 1.5" />
+                  <rect x="13" y="14" width="2" height="6" rx="0.5" />
+                  <rect x="17" y="11" width="2" height="9" rx="0.5" />
+                  <rect x="21" y="8" width="2" height="12" rx="0.5" />
+                  <path d="M11 15l4-4 5 5" />
+                  <path d="M17 11h3v3" />
+                </svg>
+              </div>
+              <h3>Increase in indexed keywords and impression</h3>
+              <p>By optimizing your content and aligning it with search intent, I can significantly expand the number of indexed keywords and impressions for your site. This leads to greater visibility across search engines and attracts more organic traffic.</p>
+            </div>
+
+            <div className="expertise-card">
+              <div className="expertise-icon-wrap">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <rect x="2" y="3" width="20" height="14" rx="2" />
+                  <path d="M8 21h8M12 17v4" />
+                  <path d="M5 14v-1M9 14V10M13 14V6M17 14V4" />
+                  <path d="M5 11l4-3 4-2 4-3" />
+                  <path d="M14 3h3v3" />
+                </svg>
+              </div>
+              <h3>Increase in ranking and traffic</h3>
+              <p>I'll implement proven SEO strategies to improve your site's rankings for high-value keywords. As your site climbs in search engine results, you'll experience a steady increase in targeted traffic, driving more potential customers to your content.</p>
+            </div>
+
+            <div className="expertise-card">
+              <div className="expertise-icon-wrap">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <path d="M12 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                  <path d="M6 18a6 6 0 0 1 8.8-5.3" />
+                  <path d="M17 17a5 5 0 0 0 3-8" />
+                  <path d="M19 6h3.5v3.5" />
+                  <circle cx="19" cy="14" r="4" />
+                  <path d="M19 12v4M17.5 13h3c.5 0 1 .5 1 1s-.5 1-1 1h-2c-.5 0-1 .5-1 1s.5 1 1 1h3" />
+                </svg>
+              </div>
+              <h3>Increase in conversion (month over month)</h3>
+              <p>Through a combination of on-page optimization, enhanced user experience, and conversion-focused strategies, I'll work to boost your conversion rate month over month, ensuring that more visitors take the desired actions on your site.</p>
+            </div>
+
+            <div className="expertise-card">
+              <div className="expertise-icon-wrap">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <circle cx="12" cy="12" r="6" />
+                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" strokeDasharray="3 3" />
+                  <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10" />
+                  <path d="M12 2a15.3 15.3 0 0 0-4 10 15.3 15.3 0 0 0 4 10" />
+                  <text x="12" y="15" fontFamily="var(--font-display), sans-serif" fontSize="8" fontWeight="800" textAnchor="middle" fill="currentColor">AI</text>
+                </svg>
+              </div>
+              <h3>Get yourself featured in AI overviews</h3>
+              <p>I structure your content using semantic schema, entity tags, and direct answer formats optimized for search engine AI models. This positions your site to win Google's AI Overview answers and drive high-authority search placements.</p>
+            </div>
+
+            <div className="expertise-card">
+              <div className="expertise-icon-wrap">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+                  <path d="M3.6 9h16.8M3.6 15h16.8" />
+                </svg>
+              </div>
+              <h3>Ensure your site has 100% health score</h3>
+              <p>Through deep technical audits, I resolve crawling errors, fix broken links, optimize site performance (Core Web Vitals), and secure your indexation pathways. A clean, healthy site ranks faster and crawls more efficiently.</p>
+            </div>
+
+            <div className="expertise-card">
+              <div className="expertise-icon-wrap">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <path d="M3 20h18" />
+                  <path d="M3 16l5-4 5 1 8-9" />
+                  <path d="M19 2l.5 1.5L21 4l-1.5.5L19 6l-.5-1.5L17 4l1.5-.5z" fill="currentColor" />
+                  <path d="M13 3l.3 1L14 4.3l-1 .3-.3 1-.3-1-1-.3 1-.3z" fill="currentColor" opacity="0.8" />
+                  <circle cx="8" cy="8" r="1" fill="currentColor" />
+                  <circle cx="4" cy="12" r="1.5" fill="currentColor" />
+                </svg>
+              </div>
+              <h3>Rank in LLMs (ChatGPT, Gemini and Perplexity)</h3>
+              <p>I optimize your brand's data footprint for Large Language Models. By targeting conversational context, structured facts, and citation loops, I ensure your business is recommended as a top reference when users query AI assistants.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* SECTION 3: HOW TO CHOOSE A TRUE SEO EXPERT */}
       <section className="section" aria-labelledby="howToChooseHeading" style={{ background: 'var(--white)', borderBottom: '1px solid var(--border)' }}>
         <div className="container">
