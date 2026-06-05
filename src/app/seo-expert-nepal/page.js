@@ -498,6 +498,20 @@ export default function SeoExpertNepal() {
                 )
               },
               {
+                name: 'Screaming Frog',
+                logo: (
+                  <svg width="140" height="32" viewBox="0 0 140 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    {/* Screaming Frog Logo */}
+                    <text x="0" y="22" fontFamily="var(--font-display), 'Inter', sans-serif" fontSize="17" fontWeight="800" fill="#383D3B" letterSpacing="-0.03em">Scre</text>
+                    <text x="36" y="24" fontFamily="var(--font-display), 'Inter', sans-serif" fontSize="26" fontWeight="800" fill="#61A229">@</text>
+                    <g transform="translate(34, 4) scale(0.042)" fill="#000000">
+                      <path d="M446.53 97.43C439.67 60.23 407.19 32 368 32c-39.23 0-71.72 28.29-78.54 65.54C126.75 112.96-.5 250.12 0 416.98.11 451.9 29.08 480 64 480h304c8.84 0 16-7.16 16-16 0-17.67-14.33-32-32-32h-79.49l35.8-48.33c24.14-36.23 10.35-88.28-33.71-106.6-23.89-9.93-51.55-4.65-72.24 10.88l-32.76 24.59c-7.06 5.31-17.09 3.91-22.41-3.19-5.3-7.08-3.88-17.11 3.19-22.41l34.78-26.09c36.84-27.66 88.28-27.62 125.13 0 10.87 8.15 45.87 39.06 40.8 93.21L469.62 480H560c8.84 0 16-7.16 16-16 0-17.67-14.33-32-32-32h-53.63l-98.52-104.68 154.44-86.65A58.16 58.16 0 0 0 576 189.94c0-21.4-11.72-40.95-30.48-51.23-40.56-22.22-98.99-41.28-98.99-41.28zM368 136c-13.26 0-24-10.75-24-24 0-13.26 10.74-24 24-24 13.25 0 24 10.74 24 24 0 13.25-10.75 24-24 24z"/>
+                    </g>
+                    <text x="64" y="22" fontFamily="var(--font-display), 'Inter', sans-serif" fontSize="17" fontWeight="800" fill="#61A229" letterSpacing="-0.03em">mingfrog</text>
+                  </svg>
+                )
+              },
+              {
                 name: 'Claude AI',
                 logo: (
                   <svg width="100" height="32" viewBox="0 0 100 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -507,6 +521,19 @@ export default function SeoExpertNepal() {
                     </g>
                     {/* Text */}
                     <text x="28" y="22" fontFamily="'Georgia', serif" fontSize="18" fontWeight="700" fill="var(--black)">Claude</text>
+                  </svg>
+                )
+              },
+              {
+                name: 'Notion',
+                logo: (
+                  <svg width="90" height="32" viewBox="0 0 90 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    {/* Notion Icon */}
+                    <g transform="translate(0, 4)" fill="var(--black)">
+                      <path d="M4.459 4.208c.746.606 1.026.56 2.428.466l13.215-.793c.28 0 .047-.28-.046-.326L17.86 1.968c-.42-.326-.981-.7-2.055-.607L3.01 2.295c-.466.046-.56.28-.374.466zm.793 3.08v13.904c0 .747.373 1.027 1.214.98l14.523-.84c.841-.046.935-.56.935-1.167V6.354c0-.606-.233-.933-.748-.887l-15.177.887c-.56.047-.747.327-.747.933zm14.337.745c.093.42 0 .84-.42.888l-.7.14v10.264c-.608.327-1.168.514-1.635.514-.748 0-.935-.234-1.495-.933l-4.577-7.186v6.952L12.21 19s0 .84-1.168.84l-3.222.186c-.093-.186 0-.653.327-.746l.84-.233V9.854L7.822 9.76c-.094-.42.14-1.026.793-1.073l3.456-.233 4.764 7.279v-6.44l-1.215-.139c-.093-.514.28-.887.747-.933zM1.936 1.035l13.31-.98c1.634-.14 2.055-.047 3.082.7l4.249 2.986c.7.513.934.653.934 1.213v16.378c0 1.026-.373 1.634-1.68 1.726l-15.458.934c-.98.047-1.448-.093-1.962-.747l-3.129-4.06c-.56-.747-.793-1.306-.793-1.96V2.667c0-.839.374-1.54 1.447-1.632z"/>
+                    </g>
+                    {/* Text */}
+                    <text x="28" y="21" fontFamily="var(--font-display), 'Inter', sans-serif" fontSize="15" fontWeight="800" fill="var(--black)" letterSpacing="-0.02em">Notion</text>
                   </svg>
                 )
               },
