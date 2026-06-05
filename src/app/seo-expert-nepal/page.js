@@ -487,44 +487,53 @@ export default function SeoExpertNepal() {
               {
                 name: 'SEMrush',
                 logo: (
-                  <svg width="120" height="32" viewBox="0 0 120 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                    {/* SEMrush Fireball Icon */}
-                    <circle cx="16" cy="16" r="9" fill="#FF642C" />
-                    <path d="M16 10c-3.31 0-6 2.69-6 6s2.69 6 6 6" stroke="#FFFFFF" strokeWidth="1.5" strokeLinecap="round" />
-                    <circle cx="16" cy="16" r="1.5" fill="#FFFFFF" />
-                    {/* Text */}
-                    <text x="34" y="21" fontFamily="var(--font-display)" fontSize="14" fontWeight="900" fill="var(--black)" letterSpacing="0.04em">SEMRUSH</text>
+                  <svg width="100" height="50" viewBox="0 0 100 50" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    {/* Fireball */}
+                    <g transform="translate(50, 18)" fill="#FF642C">
+                      {/* Circle */}
+                      <circle cx="0" cy="0" r="9" />
+                      {/* Crescent inside */}
+                      <path d="M4 0 A4 4 0 1 1-4-4" fill="none" stroke="#FFFFFF" strokeWidth="2" strokeLinecap="round" />
+                      {/* Flame trails */}
+                      <path d="M-7.5-4.5c-3-1.5-6-1.5-10-3.5 3 2.5 6 3 9 3.5" fill="none" stroke="#FF642C" strokeWidth="2.2" strokeLinecap="round" />
+                      <path d="M-8-0.5c-3.5 0-6.5.5-10-.5 3.5 1.5 6.5 2 10 1" fill="none" stroke="#FF642C" strokeWidth="2.2" strokeLinecap="round" />
+                      <path d="M-7.5 3.5c-3 1.5-6 3.5-8.5 6.5 2.5-2 5.5-3 8.5-4" fill="none" stroke="#FF642C" strokeWidth="2.2" strokeLinecap="round" />
+                    </g>
+                    {/* Text SEMRUSH */}
+                    <text x="50%" y="42" fontFamily="var(--font-display), sans-serif" fontSize="13" fontWeight="900" fill="var(--black)" letterSpacing="0.04em" textAnchor="middle">SEMRUSH</text>
                   </svg>
                 )
               },
               {
                 name: 'Claude AI',
                 logo: (
-                  <svg width="110" height="32" viewBox="0 0 110 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <svg width="120" height="32" viewBox="0 0 120 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                     {/* Claude Icon */}
-                    <g fill="#CC5A37">
-                      <circle cx="14" cy="16" r="2" />
-                      <path d="M14 9c-.3 0-.5.2-.5.5v2c0 .3.2.5.5.5s.5-.2.5-.5v-2c0-.3-.2-.5-.5-.5z" />
-                      <path d="M14 19c-.3 0-.5.2-.5.5v2c0 .3.2.5.5.5s.5-.2.5-.5v-2c0-.3-.2-.5-.5-.5z" />
-                      <path d="M7 16c0-.3.2-.5.5-.5h2c.3 0 .5.2.5.5s-.2.5-.5.5h-2c-.3 0-.5-.2-.5-.5z" />
-                      <path d="M18 16c0-.3.2-.5.5-.5h2c.3 0 .5.2.5.5s-.2.5-.5.5h-2c-.3 0-.5-.2-.5-.5z" />
-                      <path d="M9 11c-.2-.2-.2-.5 0-.7l1.4-1.4c.2-.2.5-.2.7 0s.2.5 0 .7l-1.4 1.4c-.2.2-.5.2-.7 0z" />
-                      <path d="M16 18c-.2-.2-.2-.5 0-.7l1.4-1.4c.2-.2.5-.2.7 0s.2.5 0 .7l-1.4 1.4c-.2.2-.5.2-.7 0z" />
-                      <path d="M9 21c-.2.2-.5.2-.7 0l-1.4-1.4c-.2-.2-.2-.5 0-.7s.5-.2.7 0l1.4 1.4c.2.2.2.5 0 .7z" />
-                      <path d="M16 13c-.2.2-.5.2-.7 0l-1.4-1.4c-.2-.2-.2-.5 0-.7s.5-.2.7 0l1.4 1.4c.2.2.2.5 0 .7z" />
+                    <g transform="translate(14, 16)" fill="#D27357">
+                      <circle cx="0" cy="0" r="1.8" />
+                      <rect x="-1" y="-8" width="2" height="6" rx="0.8" transform="rotate(0)" />
+                      <rect x="-1" y="-8" width="2" height="6" rx="0.8" transform="rotate(36)" />
+                      <rect x="-1" y="-8" width="2" height="6" rx="0.8" transform="rotate(72)" />
+                      <rect x="-1" y="-8" width="2" height="6" rx="0.8" transform="rotate(108)" />
+                      <rect x="-1" y="-8" width="2" height="6" rx="0.8" transform="rotate(144)" />
+                      <rect x="-1" y="-8" width="2" height="6" rx="0.8" transform="rotate(180)" />
+                      <rect x="-1" y="-8" width="2" height="6" rx="0.8" transform="rotate(216)" />
+                      <rect x="-1" y="-8" width="2" height="6" rx="0.8" transform="rotate(252)" />
+                      <rect x="-1" y="-8" width="2" height="6" rx="0.8" transform="rotate(288)" />
+                      <rect x="-1" y="-8" width="2" height="6" rx="0.8" transform="rotate(324)" />
                     </g>
                     {/* Text */}
-                    <text x="28" y="22" fontFamily="'Georgia', serif" fontSize="16" fontWeight="700" fill="#CC5A37">Claude</text>
+                    <text x="32" y="22" fontFamily="'Georgia', serif" fontSize="18" fontWeight="700" fill="var(--black)">Claude</text>
                   </svg>
                 )
               },
               {
                 name: 'VS Code',
                 logo: (
-                  <svg width="36" height="36" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <svg width="32" height="32" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                     {/* VS Code blue icon only, centered inside the card */}
-                    <path d="M198.8 33.6L113.7 100.4l-31.5-23.8L13.1 133.7c-3.1 4.5-3.1 10.5 0 15l69.1 57.1 31.5-23.8 85.1 66.8c6.6 5.2 16.3.5 16.3-7.9V41.5c0-8.4-9.7-13.1-16.3-7.9z" fill="#007ACC" />
-                    <path d="M198.8 33.6l-85.1 66.8-40.2-30.4c-4.9-3.7-11.8-2.6-15.3 2.5L13.1 133.7c-3.1 4.5-3.1 10.5 0 15l45.1 61.2c3.5 5.1 10.4 6.2 15.3 2.5l40.2-30.4 85.1 66.8c6.6 5.2 16.3.5 16.3-7.9V41.5c0-8.4-9.7-13.1-16.3-7.9z" fill="#0066B3" />
+                    <path d="M198.8 33.6L113.7 100.4l-31.5-23.8L13.1 133.7c-3.1 4.5-3.1 10.5 0 15l69.1 57.1 31.5-23.8 85.1 66.8c6.6 5.2 16.3.5 16.3-7.9V41.5c0-8.4-9.7-13.1-16.3-7.9z" fill="#0066B3" />
+                    <path d="M198.8 33.6l-85.1 66.8-40.2-30.4c-4.9-3.7-11.8-2.6-15.3 2.5L13.1 133.7c-3.1 4.5-3.1 10.5 0 15l45.1 61.2c3.5 5.1 10.4 6.2 15.3 2.5l40.2-30.4 85.1 66.8c6.6 5.2 16.3.5 16.3-7.9V41.5c0-8.4-9.7-13.1-16.3-7.9z" fill="#007ACC" />
                     <path d="M198.8 33.6L113.7 100.4l-42.5-32.1L13.1 133.7c-3.1 4.5-3.1 10.5 0 15l69.1 57.1 42.5-32.1 74.1 58.2c6.6 5.2 16.3.5 16.3-7.9V41.5c0-8.4-9.7-13.1-16.3-7.9z" fill="#1F9CF0" />
                     <path d="M198.8 41.5v173c0 8.4-9.7 13.1-16.3 7.9L71.2 125.6l111.3-87.1c6.6-5.2 16.3-.5 16.3 3z" fill="#3C9FEF" />
                   </svg>
