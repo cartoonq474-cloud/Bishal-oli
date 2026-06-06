@@ -163,75 +163,81 @@ export default function SeoProcess() {
             ))}
           </div>
 
-          {/* Right/Center Area: Active Tab Panel */}
-          <div
-            id={`panel-${currentStep.num}`}
-            role="tabpanel"
-            aria-labelledby={`tab-${currentStep.num}`}
-            className="process-content-grid"
-          >
-            {/* Info Column */}
-            <div className="process-info-col">
-              <div>
-                <h3 className="process-step-title">
-                  {currentStep.num}. {currentStep.title}
-                </h3>
-                <p className="process-step-desc">
-                  {currentStep.desc}
-                </p>
+          {/* Right/Center Area: Tab Panels (Rendered statically for SEO crawler visibility) */}
+          {stepsData.map((step, idx) => (
+            <div
+              key={step.num}
+              id={`panel-${step.num}`}
+              role="tabpanel"
+              aria-labelledby={`tab-${step.num}`}
+              className="process-content-grid"
+              style={{
+                display: activeTab === idx ? 'grid' : 'none'
+              }}
+            >
+              {/* Info Column */}
+              <div className="process-info-col">
+                <div>
+                  <h3 className="process-step-title">
+                    {step.num}. {step.title}
+                  </h3>
+                  <p className="process-step-desc">
+                    {step.desc}
+                  </p>
 
-                {/* Checklist Title */}
-                <h4 className="process-checklist-title">
-                  {currentStep.subtitle}
-                </h4>
+                  {/* Checklist Title */}
+                  <h4 className="process-checklist-title">
+                    {step.subtitle}
+                  </h4>
 
-                {/* 2-Column Grid Checklist */}
-                <div className="process-checklist">
-                  {currentStep.items.map((item, itemIdx) => (
-                    <div key={itemIdx} className="process-check-item">
-                      {/* Brand green checkmark SVG */}
-                      <svg
-                        className="process-check-icon"
-                        width="18"
-                        height="18"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="3"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        aria-hidden="true"
-                      >
-                        <polyline points="20 6 9 17 4 12" />
-                      </svg>
-                      <span>{item}</span>
-                    </div>
-                  ))}
+                  {/* 2-Column Grid Checklist */}
+                  <div className="process-checklist">
+                    {step.items.map((item, itemIdx) => (
+                      <div key={itemIdx} className="process-check-item">
+                        {/* Brand green checkmark SVG */}
+                        <svg
+                          className="process-check-icon"
+                          width="18"
+                          height="18"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="3"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          aria-hidden="true"
+                        >
+                          <polyline points="20 6 9 17 4 12" />
+                        </svg>
+                        <span>{item}</span>
+                      </div>
+                    ))}
+                  </div>
                 </div>
+
+                {/* Call to Action Button */}
+                <a href="/contact" className="process-cta-btn">
+                  <span>{step.cta}</span>
+                  <span aria-hidden="true">&rarr;</span>
+                </a>
               </div>
 
-              {/* Call to Action Button */}
-              <a href="/contact" className="process-cta-btn">
-                <span>{currentStep.cta}</span>
-                <span aria-hidden="true">&rarr;</span>
-              </a>
+              {/* Visual Column */}
+              <div className="process-visual-col">
+                <span className="process-visual-overlay">
+                  Phase {step.num}
+                </span>
+                <Image
+                  src={step.image}
+                  alt={`${step.title} illustration showing SEO dashboard analytics`}
+                  fill
+                  sizes="(max-width: 768px) 100vw, 340px"
+                  style={{ objectFit: 'cover' }}
+                  priority={idx === 0}
+                />
+              </div>
             </div>
-
-            {/* Visual Column */}
-            <div className="process-visual-col">
-              <span className="process-visual-overlay">
-                Phase {currentStep.num}
-              </span>
-              <Image
-                src={currentStep.image}
-                alt={`${currentStep.title} illustration showing SEO dashboard analytics`}
-                fill
-                sizes="(max-width: 768px) 100vw, 340px"
-                style={{ objectFit: 'cover' }}
-                priority={activeTab === 0}
-              />
-            </div>
-          </div>
+          ))}
         </div>
       </div>
     </section>
