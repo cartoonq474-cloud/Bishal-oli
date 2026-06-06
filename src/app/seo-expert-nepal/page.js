@@ -3,6 +3,7 @@ import Link from 'next/link'
 import CaseStudiesCarousel from '@/components/CaseStudiesCarousel'
 import TestimonialsSection from '@/components/TestimonialsSection'
 import FaqAccordion from './FaqAccordion'
+import SeoProcess from './SeoProcess'
 
 export const metadata = {
   title: 'SEO Expert in Nepal — Bishal Oli | AI & Semantic SEO Strategist',
@@ -411,6 +412,8 @@ export default function SeoExpertNepal() {
           </div>
         </div>
       </section>
+
+      <SeoProcess />
 
       {/* SECTION 4: COMPARISON TABLE */}
       <section className="section section--dark" aria-labelledby="hiringComparisonHeading" style={{ borderBottom: '1px solid rgba(255,255,255,0.08)' }}>
