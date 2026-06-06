@@ -155,17 +155,23 @@ export default function SeoExpertNepal() {
       </section>
 
       {/* SECTION 2: WHAT AN SEO EXPERT SHOULD DO */}
-      <section className="section" aria-labelledby="whatExpertDoesHeading" style={{ background: 'var(--white)', borderBottom: '1px solid var(--border)' }}>
+      <section className="section section--dark" aria-labelledby="whatExpertDoesHeading" style={{ background: 'var(--black)', borderBottom: '1px solid rgba(255, 255, 255, 0.08)' }}>
         <div className="container">
           <div className="section-header" style={{ textAlign: 'center', margin: '0 auto var(--s6)' }}>
-            <p className="eyebrow" style={{ justifyContent: 'center' }}>Professional Deliverables</p>
-            <h2 id="whatExpertDoesHeading">SEO is more than writing metadata.</h2>
-            <p className="text-gray" style={{ maxWidth: '56ch', margin: 'var(--s3) auto 0' }}>
+            <p className="eyebrow eyebrow--light" style={{ justifyContent: 'center' }}>Professional Deliverables</p>
+            <h2 id="whatExpertDoesHeading" style={{ color: '#ffffff' }}>SEO is more than writing metadata.</h2>
+            <p style={{ maxWidth: '56ch', margin: 'var(--s3) auto 0', color: 'rgba(243, 237, 228, 0.6)' }}>
               A modern SEO specialist does not just give you a PDF checklist. They actively shape your index depth, structured graph schemas, and search engines integrations.
             </p>
           </div>
 
-          <div className="pillars-grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', marginTop: 'var(--s4)' }}>
+          <div className="pillars-grid" style={{ 
+            gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', 
+            marginTop: 'var(--s4)',
+            background: 'transparent',
+            border: 'none',
+            gap: '24px'
+          }}>
             {[
               {
                 n: '01',
@@ -188,10 +194,13 @@ export default function SeoExpertNepal() {
                 text: 'Structuring content entities so your brand gets referenced directly as the primary citation in ChatGPT Search, Gemini, Perplexity, and AI Overviews.',
               }
             ].map((p) => (
-              <div key={p.n} className="pillar">
-                <div className="pillar-num">{p.n}</div>
-                <h3>{p.title}</h3>
-                <p>{p.text}</p>
+              <div 
+                key={p.n} 
+                className="pillar pillar--dark" 
+              >
+                <div className="pillar-num" style={{ color: 'var(--lime)' }}>{p.n}</div>
+                <h3 style={{ fontSize: '1.25rem', marginBottom: 'var(--s2)' }}>{p.title}</h3>
+                <p style={{ fontSize: '0.9375rem', lineHeight: 1.6 }}>{p.text}</p>
               </div>
             ))}
           </div>

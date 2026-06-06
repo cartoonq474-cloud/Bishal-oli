@@ -169,6 +169,24 @@ p { font-size: 1.0625rem; line-height: 1.7; }
 .pillar:hover { background: var(--black); }
 .pillar:hover h3, .pillar:hover p { color: var(--ivory); }
 .pillar:hover .pillar-icon { background: var(--lime); }
+
+/* Dark variant for dark sections */
+.pillar.pillar--dark {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+}
+.pillar.pillar--dark:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: var(--lime);
+  transform: translateY(-4px);
+}
+.pillar.pillar--dark h3 {
+  color: #ffffff;
+}
+.pillar.pillar--dark p {
+  color: rgba(243, 237, 228, 0.65);
+}
 .pillar-num { font-size: 0.6875rem; font-weight: 700; letter-spacing: 0.1em; color: var(--lime-dark); margin-bottom: var(--s3); }
 .pillar-icon { width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; background: var(--sage); border-radius: 2px; margin-bottom: var(--s3); font-size: 1.25rem; transition: var(--transition); }
 .pillar h3 { font-size: 1.0625rem; margin-bottom: var(--s2); transition: var(--transition); }
