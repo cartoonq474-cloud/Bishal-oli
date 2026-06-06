@@ -155,7 +155,7 @@ export default function SeoExpertNepal() {
       </section>
 
       {/* SECTION 2: WHAT AN SEO EXPERT SHOULD DO */}
-      <section className="section" aria-labelledby="whatExpertDoesHeading" style={{ background: 'var(--ivory)', borderBottom: '1px solid var(--border)' }}>
+      <section className="section" aria-labelledby="whatExpertDoesHeading" style={{ background: 'var(--white)', borderBottom: '1px solid var(--border)' }}>
         <div className="container">
           <div className="section-header" style={{ textAlign: 'center', margin: '0 auto var(--s6)' }}>
             <p className="eyebrow" style={{ justifyContent: 'center' }}>Professional Deliverables</p>
