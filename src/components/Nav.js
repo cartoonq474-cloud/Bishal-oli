@@ -26,10 +26,9 @@ export default function Nav() {
   const links = [
     { href: '/', label: 'Home' },
     { 
-      label: 'About Us', 
+      label: 'About Me', 
       href: '/about',
       dropdown: [
-        { href: '/about', label: 'About Me' },
         { href: '/seo-expert-nepal', label: 'SEO Expert Nepal' }
       ]
     },
