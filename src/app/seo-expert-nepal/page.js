@@ -65,7 +65,7 @@ export default function SeoExpertNepal() {
           <div className="hero__content">
             <p className="hero__eyebrow">Bishal Oli — Authority-First SEO Specialist</p>
             <h1 className="hero__headline" id="heroHeadline" style={{ fontSize: 'clamp(2.25rem, 4.2vw, 3.5rem)' }}>
-              SEO Expert in Nepal.<br />Built for AI &amp; Google Search.
+              SEO Expert in Nepal.<br />Rank in AI &amp; Google Search.
             </h1>
             <p className="hero__body">
               Outrank the competition. Rebuild your search visibility with modern Semantic SEO, Topical Authority, and Generative Engine Optimization (GEO) engineered for Google, ChatGPT Search, Gemini, and Perplexity.
