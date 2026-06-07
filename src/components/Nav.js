@@ -8,7 +8,8 @@ export default function Nav() {
   const [scrolled, setScrolled] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
   const pathname = usePathname()
-  const isDarkHero = pathname === '/' || (pathname.startsWith('/blog/') && pathname.replace(/\/$/, '') !== '/blog')
+  const normalizedPath = pathname.replace(/\/$/, '')
+  const isDarkHero = normalizedPath === '' || normalizedPath === '/seo-expert-nepal' || normalizedPath.startsWith('/blog/')
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40)
